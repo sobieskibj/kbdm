@@ -17,7 +17,15 @@ Currently the biggest collection of papers regarding diffusion models. For a lon
 
 ### Foundations
 
+#### 2022
+
+- [Classifier-Free Diffusion Guidance](https://arxiv.org/abs/2207.12598) **WR=3**  
+Simple but very practical idea. Instead of training an additional classifier for guidance, we can simply condition diffusion models with some signal and train them simultaneously with and without this signal.
+
 #### 2021
+
+- [Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233) **WR=2**  
+Very practical paper that shows how to scale diffusion models to beat GANs. They introduce *classifier guidance*, important technique for conditional generation, which is used very often.
 
 - [Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456)  **WR=3**  
 At this point, it turns out that score-matching and diffusion models are the same thing, and can be generalized with a framework that uses stochastic differential equations.
@@ -42,5 +50,4 @@ Here is where Yang Song steps into the field. Score-based models were being deve
 
 - [Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://arxiv.org/abs/1503.03585)  **WR=1**  
 Here is where diffusion models were introduced for the first time (and then not used for long). I include it mostly for historical reasons. Also check out the [webpage of Jascha Sohl-Dickstein](http://sohldickstein.com) - the main author of this paper. Very inspirational.
-
 
