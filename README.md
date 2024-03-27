@@ -51,3 +51,40 @@ Here is where Yang Song steps into the field. Score-based models were being deve
 - [Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://arxiv.org/abs/1503.03585)  **WR=1**  
 Here is where diffusion models were introduced for the first time (and then not used for long). I include it mostly for historical reasons. Also check out the [webpage of Jascha Sohl-Dickstein](http://sohldickstein.com) - the main author of this paper. Very inspirational.
 
+### Representation learning
+
+#### 2024
+
+- [Exploring Diffusion Time-steps for Unsupervised Representation Learning](https://arxiv.org/abs/2401.11430)  
+The authors propose to learn a specifc feature for each timestep t to compensate for the attribute lost through noising.
+
+#### 2023
+
+- [SODA: Bottleneck Diffusion Models for Representation Learning](https://arxiv.org/abs/2311.17901)  
+In essence, an extension of DiffAE to different modalities for the conditioning signal. 
+
+- [Diffusion Model as Representation Learner](https://arxiv.org/abs/2308.10916)  
+Shows that an off-the-shelft diffusion model can be adapted to representation learning tasks via reinforcement learning and student networks.
+
+- [InfoDiffusion: Representation Learning Using Information Maximizing Diffusion Models](https://proceedings.mlr.press/v202/wang23ah.html)  
+Improves representation learning capabilities of DiffAE by extending it with information theory related aspects.
+
+- [Self-Discovering Interpretable Diffusion Latent Directions for Responsible Text-to-Image Generation](https://arxiv.org/abs/2311.17216)  
+Proposes an approach to find interpretable direction in the h-space for user-defined concepts by learning a latent vector.
+
+- [Unsupervised Discovery of Interpretable Directions in h-space of Pre-trained Diffusion Models](https://arxiv.org/abs/2310.09912)  
+Unsupervised approach to finding editing directions in the h-space. 
+
+- [Understanding the Latent Space of Diffusion Models through the Lens of Riemannian Geometry](https://arxiv.org/abs/2307.12868)  
+Proposes to use riemannian geometry to find the connection between the x-space (image space) and h-space. It allows for unsupervised discovery of editing directions.
+
+- [Diffusion Models already have a Semantic Latent Space](https://arxiv.org/abs/2210.10960)  
+First paper that proposes to use the U-Net bottleneck and shows that it contains meaningful representations that allow for a variety of modifications.
+
+#### 2022
+
+- [Unsupervised Representation Learning from Pre-trained Diffusion Probabilistic Models](https://arxiv.org/abs/2212.12990)  
+Shows that a standard diffusion model can be fine-tuned to possess a semantic encoder, which means that DiffAE does not have to be trained from scratch.
+
+- [Diffusion Autoencoders: Toward a Meaningful and Decodable Representation](https://arxiv.org/abs/2111.15640)  
+Oral paper from CVPR 2022. One of the first, if not the first one, approach to obtain a handy semantic latent space in diffusion models. They train a standard diffusion model jointly with a semantic encoder that outputs a representation which is then used as conditioning signal for the denoising network.
