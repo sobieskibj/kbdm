@@ -88,3 +88,18 @@ Shows that a standard diffusion model can be fine-tuned to possess a semantic en
 
 - [Diffusion Autoencoders: Toward a Meaningful and Decodable Representation](https://arxiv.org/abs/2111.15640)  
 Oral paper from CVPR 2022. One of the first, if not the first one, approach to obtain a handy semantic latent space in diffusion models. They train a standard diffusion model jointly with a semantic encoder that outputs a representation which is then used as conditioning signal for the denoising network.
+
+### Consistency Models
+
+#### 2024
+
+- [Easy Consistency Tuning](https://gsunshine.notion.site/Consistency-Models-Made-Easy-954205c0b4a24c009f78719f43b419cc) **WR=3**
+Great blog post that will probably be converted into a paper. It begins with an intuitive introduction to Consistency Models and proceeds with showing how the original framework can be improved by replacing distillation with fine-tuning of pretrained diffusion models.
+
+#### 2023
+
+- [Improved Techniques for Training Consistency Models](https://arxiv.org/abs/2310.14189)  **WR=2**
+Follow-up from Yang Song showing some general improvements to original Consistency Models.
+
+- [Consistency Models](https://arxiv.org/abs/2303.01469)  **WR=3**  
+Yang Song introduces a new distillation technique for diffusion models together with a new class of generative models that builds upon it.
