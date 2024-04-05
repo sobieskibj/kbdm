@@ -11,6 +11,9 @@ One of the founding fathers of diffusion models in their current shape. He made 
 - [Awesome-Diffusion-Models GitHub repo](https://github.com/diff-usion/Awesome-Diffusion-Models)  
 Currently the biggest collection of papers regarding diffusion models. For a long time, it was periodically updated. Now this trend stopped, but almost anything until 2024 can be found there. It starts with a ``Resources`` section that lists almost all introductory materials known to the community.
 
+- [DDPM implementation from labmlai](https://github.com/labmlai/annotated_deep_learning_paper_implementations/tree/master/labml_nn/diffusion/ddpm)  
+Quite clean implementation of DDPM with great comments about each code line. Strongly recommended if you want to see how diffusion models can be implemented and how they work in practice.
+
 ## Papers
 
 **WR** (worth reading) scale from 1 to 3 indicates how important it is to read a paper (higher means more important).
