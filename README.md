@@ -99,6 +99,9 @@ Oral paper from CVPR 2022. One of the first, if not the first one, approach to o
 - [Easy Consistency Tuning](https://gsunshine.notion.site/Consistency-Models-Made-Easy-954205c0b4a24c009f78719f43b419cc) **WR=3**  
 Great blog post that will probably be converted into a paper. It begins with an intuitive introduction to Consistency Models and proceeds with showing how the original framework can be improved by replacing distillation with fine-tuning of pretrained diffusion models.
 
+- [Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion](https://arxiv.org/abs/2310.02279)  
+A general framework that encompasses diffusion distillation techniques and consistency models, allowing for jumps from and to arbitrary timesteps of the PF ODE.
+
 #### 2023
 
 - [Improved Techniques for Training Consistency Models](https://arxiv.org/abs/2310.14189)  **WR=2**  
