@@ -58,38 +58,38 @@ Here is where diffusion models were introduced for the first time (and then not 
 
 #### 2024
 
-- [Exploring Diffusion Time-steps for Unsupervised Representation Learning](https://arxiv.org/abs/2401.11430)  
+- [Exploring Diffusion Time-steps for Unsupervised Representation Learning](https://arxiv.org/abs/2401.11430) **WR=3**    
 The authors propose to learn a specifc feature for each timestep t to compensate for the attribute lost through noising.
 
 #### 2023
 
-- [SODA: Bottleneck Diffusion Models for Representation Learning](https://arxiv.org/abs/2311.17901)  
+- [SODA: Bottleneck Diffusion Models for Representation Learning](https://arxiv.org/abs/2311.17901) **WR=1**    
 In essence, an extension of DiffAE to different modalities for the conditioning signal. 
 
-- [Diffusion Model as Representation Learner](https://arxiv.org/abs/2308.10916)  
+- [Diffusion Model as Representation Learner](https://arxiv.org/abs/2308.10916) **WR=2**    
 Shows that an off-the-shelft diffusion model can be adapted to representation learning tasks via reinforcement learning and student networks.
 
-- [InfoDiffusion: Representation Learning Using Information Maximizing Diffusion Models](https://proceedings.mlr.press/v202/wang23ah.html)  
+- [InfoDiffusion: Representation Learning Using Information Maximizing Diffusion Models](https://proceedings.mlr.press/v202/wang23ah.html) **WR=3**    
 Improves representation learning capabilities of DiffAE by extending it with information theory related aspects.
 
-- [Self-Discovering Interpretable Diffusion Latent Directions for Responsible Text-to-Image Generation](https://arxiv.org/abs/2311.17216)  
+- [Self-Discovering Interpretable Diffusion Latent Directions for Responsible Text-to-Image Generation](https://arxiv.org/abs/2311.17216) **WR=2**    
 Proposes an approach to find interpretable direction in the h-space for user-defined concepts by learning a latent vector.
 
-- [Unsupervised Discovery of Interpretable Directions in h-space of Pre-trained Diffusion Models](https://arxiv.org/abs/2310.09912)  
+- [Unsupervised Discovery of Interpretable Directions in h-space of Pre-trained Diffusion Models](https://arxiv.org/abs/2310.09912) **WR=3**    
 Unsupervised approach to finding editing directions in the h-space. 
 
-- [Understanding the Latent Space of Diffusion Models through the Lens of Riemannian Geometry](https://arxiv.org/abs/2307.12868)  
+- [Understanding the Latent Space of Diffusion Models through the Lens of Riemannian Geometry](https://arxiv.org/abs/2307.12868) **WR=3**   
 Proposes to use riemannian geometry to find the connection between the x-space (image space) and h-space. It allows for unsupervised discovery of editing directions.
 
-- [Diffusion Models already have a Semantic Latent Space](https://arxiv.org/abs/2210.10960)  
-First paper that proposes to use the U-Net bottleneck and shows that it contains meaningful representations that allow for a variety of modifications.
+- [Diffusion Models already have a Semantic Latent Space](https://arxiv.org/abs/2210.10960) **WR=3**  
+First paper that proposes to use the U-Net bottleneck and shows that it contains meaningful representations that allow for a variety of modifications. Importantly, the changes are rarely disentangled and in general the entire image is modified in some way.
 
 #### 2022
 
-- [Unsupervised Representation Learning from Pre-trained Diffusion Probabilistic Models](https://arxiv.org/abs/2212.12990)  
+- [Unsupervised Representation Learning from Pre-trained Diffusion Probabilistic Models](https://arxiv.org/abs/2212.12990) **WR=3**    
 Shows that a standard diffusion model can be fine-tuned to possess a semantic encoder, which means that DiffAE does not have to be trained from scratch.
 
-- [Diffusion Autoencoders: Toward a Meaningful and Decodable Representation](https://arxiv.org/abs/2111.15640)  
+- [Diffusion Autoencoders: Toward a Meaningful and Decodable Representation](https://arxiv.org/abs/2111.15640) **WR=3**    
 Oral paper from CVPR 2022. One of the first, if not the first one, approach to obtain a handy semantic latent space in diffusion models. They train a standard diffusion model jointly with a semantic encoder that outputs a representation which is then used as conditioning signal for the denoising network.
 
 ### Consistency Models
@@ -99,7 +99,7 @@ Oral paper from CVPR 2022. One of the first, if not the first one, approach to o
 - [Easy Consistency Tuning](https://gsunshine.notion.site/Consistency-Models-Made-Easy-954205c0b4a24c009f78719f43b419cc) **WR=3**  
 Great blog post that will probably be converted into a paper. It begins with an intuitive introduction to Consistency Models and proceeds with showing how the original framework can be improved by replacing distillation with fine-tuning of pretrained diffusion models.
 
-- [Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion](https://arxiv.org/abs/2310.02279)  
+- [Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion](https://arxiv.org/abs/2310.02279) **WR=3**    
 A general framework that encompasses diffusion distillation techniques and consistency models, allowing for jumps from and to arbitrary timesteps of the PF ODE.
 
 #### 2023
