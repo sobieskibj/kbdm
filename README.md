@@ -14,6 +14,12 @@ Currently the biggest collection of papers regarding diffusion models. For a lon
 - [DDPM implementation from labmlai](https://github.com/labmlai/annotated_deep_learning_paper_implementations/tree/master/labml_nn/diffusion/ddpm)  
 Quite clean implementation of DDPM with great comments about each code line. Strongly recommended if you want to see how diffusion models can be implemented and how they work in practice.
 
+- [How to Train Your Energy-Based Models](https://arxiv.org/abs/2101.03288)  
+Introduction to energy-based models from Yang Song and Diederik Kinga from 2021. Covers important basics despite not being so fresh.
+
+- [Tutorial on Diffusion Models for Imaging and Vision](https://arxiv.org/abs/2403.18103)  
+Comprehensive and up-to-date tutorial on diffusion models already praised by the community.
+
 ## Papers
 
 **WR** (worth reading) scale from 1 to 3 indicates how important it is to read a paper (higher means more important).
