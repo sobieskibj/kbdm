@@ -102,77 +102,77 @@ Oral paper from CVPR 2022. One of the first, if not the first one, approach to o
 
 #### 2024
 
-[Divide-and-Conquer Posterior Sampling for Denoising Diffusion Priors](https://arxiv.org/abs/2403.11407)  
+- [Divide-and-Conquer Posterior Sampling for Denoising Diffusion Priors](https://arxiv.org/abs/2403.11407)  
 Math-heavy. Combines standard langevin dynamics with Feynman-Kac models. Evaluates on faces, churches and bedrooms.
 
-[Noisy Image Restoration Based on Conditional Acceleration Score Approximation](https://ieeexplore.ieee.org/abstract/document/10446531?casa_token=FBEMqWOGRTcAAAAA:S_ve43-219LPPCDaQc98ZG7Y15cvfUmCRijcFwz7eaq9Eqg7YWqDVtBHFCmR61HT3kTi7imKSw)  
-Adapts the position-velocity-acceleration framework to inverse problems. Evaluates on faces and dogs. Nothing special, but beats the considered SOTA. Might be problematic to include classifier guidance signal.
+- [Noisy Image Restoration Based on Conditional Acceleration Score Approximation](https://ieeexplore.ieee.org/abstract/document/10446531?casa_token=FBEMqWOGRTcAAAAA:S_ve43-219LPPCDaQc98ZG7Y15cvfUmCRijcFwz7eaq9Eqg7YWqDVtBHFCmR61HT3kTi7imKSw)  
+Adapts the position-velocity-acceleration framework to inverse problems. Evaluates on faces and dogs. Nothing special, but beats the considered SOTA.
 
-[ODE-DPS: ODE-based Diffusion Posterior Sampling for Inverse Problems in Partial Differential Equation](https://arxiv.org/abs/2404.13496)  
+- [ODE-DPS: ODE-based Diffusion Posterior Sampling for Inverse Problems in Partial Differential Equation](https://arxiv.org/abs/2404.13496)  
 Considers inverse problems in the context of partial differential equations. Adapts the DPS algorithm by adding adaptive step size and removing stochasticity
 
-[Improving Diffusion Models for Inverse Problems Using Optimal Posterior Covariance](https://arxiv.org/abs/2402.02149)  
-Propose a formulation of recent diffusion-based inverse problem solvers in which they differ only in handcrafted design of isotropic posterior covariances. The authors propse to optimize the isotropic posterior covariance to further enhance the performance in inverse problems. They evaluate on ImageNet.
+- [Improving Diffusion Models for Inverse Problems Using Optimal Posterior Covariance](https://arxiv.org/abs/2402.02149)  
+Propose a formulation of recent diffusion-based inverse problem solvers in which they differ only in handcrafted design of isotropic posterior covariances. The authors propose to optimize the isotropic posterior covariance to further enhance the performance in inverse problems. They evaluate on ImageNet.
 
-[Image Restoration by Denoising Diffusion Models with Iteratively Preconditioned Guidance](https://arxiv.org/abs/2312.16519)  
+- [Image Restoration by Denoising Diffusion Models with Iteratively Preconditioned Guidance](https://arxiv.org/abs/2312.16519)  
 During optimization, uses a sequence of preconditioners that smoothly translate the problem from back-projection to least-squares. Allows for DDPM and DDIM. 
 
-[Conditional Velocity Score Estimation for Image Restoration](https://openaccess.thecvf.com/content/WACV2024/html/Shi_Conditional_Velocity_Score_Estimation_for_Image_Restoration_WACV_2024_paper.html)  
+- [Conditional Velocity Score Estimation for Image Restoration](https://openaccess.thecvf.com/content/WACV2024/html/Shi_Conditional_Velocity_Score_Estimation_for_Image_Restoration_WACV_2024_paper.html)  
 Adapts the position-velocity diffusion framework to solve inverse problems. Does not evaluate on ImageNet.
 
-[Solving Inverse Problem With Unspecified Forward Operator Using Diffusion Models](https://openreview.net/forum?id=Ec2rYpP42y)  
+- [Solving Inverse Problem With Unspecified Forward Operator Using Diffusion Models](https://openreview.net/forum?id=Ec2rYpP42y)  
 Assumes no access to degradation operator and aims to recover it from the sample. 
 
-[Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective](https://openreview.net/forum?id=tplXNcHZs1)  
+- [Diffusion Posterior Sampling for Linear Inverse Problem Solving: A Filtering Perspective](https://openreview.net/forum?id=tplXNcHZs1)  
 Another paper from Yang 'Diffusion God' Song. In general, it is based on a sampling a set of solutions to the inverse problem. 
 
-[From Posterior Sampling to Meaningful Diversity in Image Restoration](https://arxiv.org/abs/2310.16047)  
+- [From Posterior Sampling to Meaningful Diversity in Image Restoration](https://arxiv.org/abs/2310.16047)  
 'In this paper, we initiate the study of meaningfully diverse image restoration. We explore several post-processing approaches that can be combined with any diverse image restoration method to yield semantically meaningful di- versity. Moreover, we propose a practical approach for allowing diffusion based image restoration methods to generate meaningfully diverse outputs, while incur- ring only negligent computational overhead.' How to effectively increase the diversity of inpaints?
 
-[Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems](https://arxiv.org/abs/2303.05754)  
+- [Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems](https://arxiv.org/abs/2303.05754)  
 Focuses on medical imaging inverse problems. Requires 20~50 NFE.
 
 #### 2023
 
-[Conditional score-based generative models for solving physics-based inverse problems](https://openreview.net/forum?id=ZL5wlFMg0Y)  
-Focuses on physics-based problems and requires training on a dataset with labeled conditions. Not really applicable to our case.
+- [Conditional score-based generative models for solving physics-based inverse problems](https://openreview.net/forum?id=ZL5wlFMg0Y)  
+Focuses on physics-based problems and requires training on a dataset with labeled conditions.
 
-[Quantized Generative Models for Solving Inverse Problems](https://openaccess.thecvf.com/content/ICCV2023W/RCV/html/Reddy_Quantized_Generative_Models_for_Solving_Inverse_Problems_ICCVW_2023_paper.html)  
+- [Quantized Generative Models for Solving Inverse Problems](https://openaccess.thecvf.com/content/ICCV2023W/RCV/html/Reddy_Quantized_Generative_Models_for_Solving_Inverse_Problems_ICCVW_2023_paper.html)  
 How to effectively quantize generative models to preserve the quality of 32-bit models in inverse problems.
 
-[Beyond First-Order Tweedie: Solving Inverse Problems using Latent Diffusion](https://arxiv.org/abs/2312.00852). 
+- [Beyond First-Order Tweedie: Solving Inverse Problems using Latent Diffusion](https://arxiv.org/abs/2312.00852). 
 Extend first-order Tweedie to efficient second-order method with hessian estimator that requires only its trace. Inverse problems are solved in the latent space of an LDM.
 
-[INDigo: An INN-Guided Probabilistic Diffusion Algorithm for Inverse Problems](https://arxiv.org/abs/2306.02949)  
+- [INDigo: An INN-Guided Probabilistic Diffusion Algorithm for Inverse Problems](https://arxiv.org/abs/2306.02949)  
 Attempts to solve problems without a closed-form expression of the degradation model. 
 
-[Inverse problem regularization with hierarchical variational autoencoders](https://arxiv.org/abs/2303.11217)  
+- [Inverse problem regularization with hierarchical variational autoencoders](https://arxiv.org/abs/2303.11217)  
 Pretty fast, but the paper seems to somehow ignore the vast diffusion literature.
 
-[Direct Diffusion Bridge using Data Consistency for Inverse Problems](https://arxiv.org/abs/2305.19809). 
-The authors propose a Consistent Direct Diffusion Bridge framework as a generalization of solving inverse problems with diffusion models. They show that NFE can be adapted to the budget at hand, and achieve great results in 20-1000 NFE range. Equation 15 concisely describes replacing x_t in guidance with estimated x_0. Great results on inpainting. Use ImageNet model from BeatGANs, i.e. classifier guidance. Sidenote: can black-box classifier prediction be formulated using pseudo-inverse?
+- [Direct Diffusion Bridge using Data Consistency for Inverse Problems](https://arxiv.org/abs/2305.19809). 
+The authors propose a Consistent Direct Diffusion Bridge framework as a generalization of solving inverse problems with diffusion models. They show that NFE can be adapted to the budget at hand, and achieve great results in 20-1000 NFE range. Equation 15 concisely describes replacing x_t in guidance with estimated x_0. Great results on inpainting. Use ImageNet model from BeatGANs, i.e. classifier guidance.
 
-[Score-Based Diffusion Models as Principled Priors for Inverse Imaging](https://arxiv.org/abs/2304.11751)  
+- [Score-Based Diffusion Models as Principled Priors for Inverse Imaging](https://arxiv.org/abs/2304.11751)  
 Requires a trained normalizing flow for sampling. No examples for inpainting.
 
-[Solving Inverse Problems with Latent Diffusion Models via Hard Data Consistency](https://arxiv.org/abs/2307.08123)  
+- [Solving Inverse Problems with Latent Diffusion Models via Hard Data Consistency](https://arxiv.org/abs/2307.08123)  
 The authors propose an approach to solving inverse problems in the latent space of an autoencoder, thus utilizing Latent Diffusion Models. To do that, they incorporate an additional optimization problem that finds the latent representation at a given timestep which, when decoded, approximates the measurement sufficiently well.
 
-[A Variational Perspective on Solving Inverse Problems with Diffusion Models](https://arxiv.org/abs/2305.04391)  
+- [A Variational Perspective on Solving Inverse Problems with Diffusion Models](https://arxiv.org/abs/2305.04391)  
 In addition to previous methods, this one seems to be very fast.
 
-[Pseudoinverse-Guided Diffusion Models for Inverse Problems](https://openreview.net/forum?id=9_gsMA8MRKQ)  
-Extends to solving non-linear and non-differentiable inverse problems via pseudoinverse guidance term. Could this be applied to black-box counterfactuals? It it also stochastic and possibly allows for class-conditioning with classifier guidance.
+- [Pseudoinverse-Guided Diffusion Models for Inverse Problems](https://openreview.net/forum?id=9_gsMA8MRKQ)  
+Extends to solving non-linear and non-differentiable inverse problems via pseudoinverse guidance term. It it also stochastic and possibly allows for class-conditioning with classifier guidance.
 
 #### 2022
 
-[Parallel Diffusion Models of Operator and Image for Blind Inverse Problems](https://arxiv.org/abs/2211.10656)  
+- [Parallel Diffusion Models of Operator and Image for Blind Inverse Problems](https://arxiv.org/abs/2211.10656)  
 Non-blind means that the forward operator is known and blind means that it is not. This work addapts diffusion models to blind inverse problems.
 
-[Improving Diffusion Models for Inverse Problems using Manifold Constraints](https://arxiv.org/abs/2206.00941)  
+- [Improving Diffusion Models for Inverse Problems using Manifold Constraints](https://arxiv.org/abs/2206.00941)  
 Propose a simple improvement to general application of diffusion models for inverse problems. It is based on computing the gradient of the condition with the use of approximate final generation, similarly to replacing the input to classifier guidance with the approximation of the final step. Also a plus: 'The proposed method is inherently stochastic since the diffusion model is the main workhorse of the algorithm'.
 
-[Denoising Diffusion Restoration Models](https://arxiv.org/abs/2201.11793)  
+- [Denoising Diffusion Restoration Models](https://arxiv.org/abs/2201.11793)  
 Great approach for e.g. stochastic inpainting that allows for additional class conditioning. It speeds up the whole process significantly.
 
 ### Consistency Models
