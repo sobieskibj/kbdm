@@ -20,6 +20,9 @@ Introduction to energy-based models from Yang Song and Diederik Kinga from 2021.
 - [Tutorial on Diffusion Models for Imaging and Vision](https://arxiv.org/abs/2403.18103)  
 Comprehensive and up-to-date tutorial on diffusion models already praised by the community.
 
+- [Diffusion Schrödinger Bridge with Applications to Score-Based Generative Modeling](https://vdeborto.github.io/publication/schrodinger_bridge/)  
+Introduction to Diffusion Schrödinger Bridges based on a [NeurIPS 2021 Spotlight](https://arxiv.org/abs/2106.01357).
+
 ## Papers
 
 **WR** (worth reading) scale from 1 to 3 indicates how important it is to read a paper (higher means more important).
