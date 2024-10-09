@@ -195,3 +195,10 @@ Follow-up from Yang Song showing some general improvements to original Consisten
 
 - [Consistency Models](https://arxiv.org/abs/2303.01469)  **WR=3**  
 Yang Song introduces a new distillation technique for diffusion models together with a new class of generative models that builds upon it.
+
+### Flow Matching
+
+#### 2024
+
+- [An Introduction to Flow Matching](https://mlg.eng.cam.ac.uk/blog/2024/01/20/flow-matching.html#fn:log_pdf)  
+Nice tutorial about Flow Matching from an ML research group at Cambridge. Interestingly, eq. 22 seems to recover I2SB with flow matching formulation.
