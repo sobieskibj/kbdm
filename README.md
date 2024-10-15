@@ -5,7 +5,7 @@
 - [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/abs/2208.11970)  
 Probably the most comprehensive introductory 'paper'. Gives good intuitions, shows all of the math from scratch (almost everything up to 2022 state of knowledge). Probably the longest but also one of the best choices to start with.
 
-- [Yang Song webpage](https://arxiv.org/abs/2208.11970)  
+- [Yang Song webpage](https://yang-song.net/blog/)  
 One of the founding fathers of diffusion models in their current shape. He made a great blog post titled 'Generative Modeling by Estimating Gradients of the Data Distribution', which is shorter than the paper above but shows how to intuitively grasp diffusion models.
 
 - [Awesome-Diffusion-Models GitHub repo](https://github.com/diff-usion/Awesome-Diffusion-Models)  
